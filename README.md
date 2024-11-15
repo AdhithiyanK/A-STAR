@@ -20,12 +20,7 @@
     b) pop q off the open list
   
     c) generate q's 8 successors and set their 
-       parents to q
-   
-    
-        
-    
-
+       parents to
 ```
 ```
 from collections import defaultdict
