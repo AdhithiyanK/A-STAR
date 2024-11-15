@@ -1,3 +1,4 @@
+```
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
 <h3>Name: ADHITHIYAN K     </h3>
 <h3>Register Number: 212222230006          </h3>
@@ -6,7 +7,7 @@
 <H3>Algorithm:</H3>
 
 
-// A* Search Algorithm
+ A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
     put the starting node on the open 
@@ -51,6 +52,7 @@
 
 ## PROGRAM:
 
+```
 ```
 from collections import defaultdict
 H_dist ={}
@@ -117,6 +119,7 @@ while len(open_set) > 0:
 print('Path does not exist!')
 return None
 ```
+```
 <hr>
 <h2>Sample Graph I</h2>
 <hr>
@@ -159,6 +162,7 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 ## PROGRAM:
 
 ```
+```
 #define fuction to return neighbor and its distance
 #from the passed node
 def get_neighbors(v):
@@ -196,6 +200,7 @@ Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
 ```
+```
 <hr>
 <h2>Sample Graph II</h2>
 <hr>
@@ -227,3 +232,4 @@ Path found: ['A', 'E', 'D', 'G']
 ## RESULT: 
 
 Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.
+```
